@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
+    "test": "jest --verbose --coverage --detectOpenHandles --forceExit",
     "start": "node index.js",
     "lint": "eslint **/*.js",
     "test-watch": "jest --watchAll --verbose --coverage"
